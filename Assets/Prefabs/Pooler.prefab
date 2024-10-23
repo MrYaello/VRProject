@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2624818934964271089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 470780871990095178}
+  - component: {fileID: 4608153881212925882}
+  m_Layer: 0
+  m_Name: Pooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &470780871990095178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2624818934964271089}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4608153881212925882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2624818934964271089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67d8b8a66bb43f74e837f5b18d8de971, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FruitPrefabs:
+  - {fileID: 1829371231341652, guid: 426b44a7575f71e479fab4f4e8431989, type: 3}
+  - {fileID: 1802840387486672, guid: 8f38e57a49b1c844081ad6bb3c553f13, type: 3}
+  - {fileID: 1638444836145330, guid: 031f4f4b1f7d8b7489da0919e18ceac3, type: 3}
+  - {fileID: 1541859410316496, guid: 4fe5a7bcbee1651418ea031a87ff53e4, type: 3}
+  - {fileID: 1763817136346132, guid: 0f3575c567ebe8241a4a6ad511fd7017, type: 3}
+  - {fileID: 1724972533694550, guid: 63e523ab5d9ce7348b431ae1d689a54d, type: 3}
+  - {fileID: 8754408262328335686, guid: d56ae838633a14546a3ab4b84c7f4468, type: 3}
+  - {fileID: 1978723142963928702, guid: 0e3a7bc2b36cbad4e8018b5c88c1e552, type: 3}
+  UsedFruit: []
+  UnusedFruit: []
+  SpawnPoints: {fileID: 0}
+  FrozenFruit:
+  - {fileID: 5076482198567709150, guid: 651e90ca710ed4e42a1b357b4013e7d6, type: 3}
+  - {fileID: 974345570732273957, guid: 0faa24849e7103243880edc9f1509389, type: 3}
+  - {fileID: 207358071218875665, guid: 2b217e8fcfb1f1c41a23ab928cb1a6bd, type: 3}
+  - {fileID: 7426180037183467218, guid: b402cf122f75479499e6aa0087ef67e5, type: 3}
+  - {fileID: 5920890785977669686, guid: debbb0dad9a4f3f4287050ef1f69e1ea, type: 3}
+  - {fileID: 9016791821589829733, guid: b721bedf12b582a4fb972b7242b91a6e, type: 3}
+  explosionBombPrefab: {fileID: 6008690809888139713, guid: c7a1bc033e7aef442b6a4dbb9dec51e2, type: 3}
+  UsedSpecialFrutisList: []
+  SplashParticles:
+  - {fileID: 180856722141813692, guid: 62a8e81875d24af4b97579b0a9893a56, type: 3}
+  - {fileID: 8136493856901917966, guid: 7fd47cd4aa362394c9422d807f97f021, type: 3}
+  - {fileID: 2225408388108315916, guid: 7d32f8b7dca512c44aac242e1fc0b059, type: 3}
+  - {fileID: 4634470663979781041, guid: d2c93f2d3069f2e409b38c54130ddf5e, type: 3}
+  - {fileID: 2302608534826513840, guid: 6cd85930020e5c2478a449d34435188e, type: 3}
+  SlashParticleEffect: {fileID: 0}
+  VRCameraFrostEffect: {fileID: 0}
