@@ -70,8 +70,8 @@ public class UIManager : MonoBehaviour
     public void StartArcadeMode()
     {
         StartArcadeModeButton.SetActive(false);
-        GameplayPanel.alpha = 1;
         FinishPanel.alpha = 0;
+        GameplayPanel.alpha = 1;
         lives = 3;
         firstHeart.SetActive(true);
         secondHeart.SetActive(true);
